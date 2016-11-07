@@ -418,6 +418,7 @@
 				CE2A7C541DD0659600BCF508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE2A7C551DD0659600BCF508 /* Build configuration list for PBXNativeTarget "TestCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				CE2A7C571DD0659600BCF508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
