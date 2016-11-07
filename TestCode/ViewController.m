@@ -29,10 +29,11 @@
 -(NSString *)GetStringWithKey:(NSString *)key{
     NSString *NewString;
     @try {
-        NewString = @"Test Code";
+        NewString = nil;
     } @catch (NSException *exception) {
     
     }
+    NSLog(@"print string test : %@", NewString);
     return NewString;
 }
 
