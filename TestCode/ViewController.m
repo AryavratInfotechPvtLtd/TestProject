@@ -29,7 +29,6 @@
 
 #pragma mark - Function
 -(NSString *)GetStringWithKey:(NSString *)key{
-    newCodeValue = 10.0f;
     return @"Test";
 }
 
