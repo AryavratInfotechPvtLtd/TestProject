@@ -27,7 +27,13 @@
 
 #pragma mark - Function
 -(NSString *)GetStringWithKey:(NSString *)key{
-    return @"Test";
+    NSString *NewString;
+    @try {
+        NewString = @"Test Code";
+    } @catch (NSException *exception) {
+    
+    }
+    return NewString;
 }
 
 @end
