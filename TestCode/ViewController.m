@@ -9,9 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-{
-    CGFloat newCodeValue;
-}
+
 @end
 
 @implementation ViewController
