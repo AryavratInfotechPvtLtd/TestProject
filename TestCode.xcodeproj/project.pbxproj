@@ -161,7 +161,7 @@
 					CE2A7C2F1DD0659600BCF508 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 952ZU65CH6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CE2A7C481DD0659600BCF508 = {
 						CreatedOnToolsVersion = 8.0;
@@ -353,13 +353,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rashmi Singh (2EC659949Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 952ZU65CH6;
 				INFOPLIST_FILE = TestCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = arya.TestCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arya.Portfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9cb257d5-b2c1-4c48-aa76-377d313363fb";
+				PROVISIONING_PROFILE_SPECIFIER = AryaPortfolioDev;
 			};
 			name = Debug;
 		};
@@ -367,13 +369,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rashmi Singh (952ZU65CH6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 952ZU65CH6;
 				INFOPLIST_FILE = TestCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = arya.TestCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arya.Portfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "84e265fb-59cb-42cd-aae6-9f18653be1c1";
+				PROVISIONING_PROFILE_SPECIFIER = Aryaportfoclioadhoc;
 			};
 			name = Release;
 		};
