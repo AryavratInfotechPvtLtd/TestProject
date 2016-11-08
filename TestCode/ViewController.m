@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //[self GetStringWithKey:@"developers"];
+    NSString *str;
+    [self GetStringWithKey:@"developers"]
     // Do any additional setup after loading the view, typically from a nib.
 }
 
