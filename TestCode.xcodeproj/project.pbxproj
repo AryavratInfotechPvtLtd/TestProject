@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE173DA11DD1EE1100A93969 /* TestProject.xml in Resources */ = {isa = PBXBuildFile; fileRef = CE173DA01DD1EE1100A93969 /* TestProject.xml */; };
 		CE2A7C351DD0659600BCF508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2A7C341DD0659600BCF508 /* main.m */; };
 		CE2A7C381DD0659600BCF508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2A7C371DD0659600BCF508 /* AppDelegate.m */; };
 		CE2A7C3B1DD0659600BCF508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2A7C3A1DD0659600BCF508 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE173DA01DD1EE1100A93969 /* TestProject.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestProject.xml; sourceTree = "<group>"; };
 		CE2A7C301DD0659600BCF508 /* TestCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2A7C341DD0659600BCF508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE2A7C361DD0659600BCF508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				CE2A7C411DD0659600BCF508 /* LaunchScreen.storyboard */,
 				CE2A7C441DD0659600BCF508 /* Info.plist */,
 				CE2A7C331DD0659600BCF508 /* Supporting Files */,
+				CE173DA01DD1EE1100A93969 /* TestProject.xml */,
 			);
 			path = TestCode;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2A7C431DD0659600BCF508 /* LaunchScreen.storyboard in Resources */,
+				CE173DA11DD1EE1100A93969 /* TestProject.xml in Resources */,
 				CE2A7C401DD0659600BCF508 /* Assets.xcassets in Resources */,
 				CE2A7C3E1DD0659600BCF508 /* Main.storyboard in Resources */,
 			);
