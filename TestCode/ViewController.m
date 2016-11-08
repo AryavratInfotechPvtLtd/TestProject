@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *str;
     [self GetStringWithKey:@"developers"];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -31,7 +30,8 @@
 -(NSString *)GetStringWithKey:(NSString *)key{
     NSString *NewString;
     @try {
-        NewString = nil;
+        NewString = @"New Developer";
+        [self GetStringWithAnotherKey:NewString];
     } @catch (NSException *exception) {
     
     }
@@ -39,4 +39,16 @@
     return NewString;
 }
 
+#pragma mark - Function
+-(NSString *)GetStringWithAnotherKey:(NSString *)key{
+    NSString *NewString;
+    @try {
+        NewString = @"developers";
+        [self GetStringWithKey:NewString];
+    } @catch (NSException *exception) {
+        
+    }
+    NSLog(@"print string test : %@", NewString);
+    return NewString;
+}
 @end
