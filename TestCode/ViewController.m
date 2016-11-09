@@ -15,7 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+//    [super viewDidLoad];
     [self GetStringWithKey:@"developers"]
     // Do any additional setup after loading the view, typically from a nib.
 }
