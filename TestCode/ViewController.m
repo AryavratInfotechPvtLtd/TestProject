@@ -35,7 +35,7 @@
     } @catch (NSException *exception) {
     
     }
-    NSLog(@"print string test : %@", NewString);
+    //NSLog(@"print string test : %@", NewString);
     return NewString;
 }
 
